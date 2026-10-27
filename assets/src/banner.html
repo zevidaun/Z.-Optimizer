@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><title>Banner</title><link rel="stylesheet" href="z.css">
+<style>
+  /* ?social → 1280×640 (vista previa de GitHub); por defecto 1280×400 (cabecera del README) */
+  .b{width:1280px;height:400px;position:relative;overflow:hidden;background:var(--rail);
+     display:grid;grid-template-columns:1fr 470px;align-items:center;padding:0 72px 0 84px;gap:56px}
+  .social .b{height:640px}
+  .b::before{content:"";position:absolute;inset:0;
+     background-image:linear-gradient(var(--line) 1px,transparent 1px),linear-gradient(90deg,var(--line) 1px,transparent 1px);
+     background-size:40px 40px;opacity:.38;
+     -webkit-mask-image:radial-gradient(ellipse 85% 120% at 30% 50%,#000 25%,transparent 80%)}
+  .b::after{content:"";position:absolute;left:-200px;top:-260px;width:820px;height:820px;border-radius:50%;
+     background:radial-gradient(circle,rgba(240,167,58,.13),transparent 62%)}
+  .b>*{position:relative;z-index:1}
+  .mark{display:flex;align-items:flex-end;gap:18px}
+  .mark .z{font-family:var(--display);font-weight:700;font-size:150px;line-height:.8;letter-spacing:-4px}
+  .mark .z i{font-style:normal;color:var(--amber)}
+  .mark .o{font-family:var(--display);font-size:40px;color:var(--muted);padding-bottom:6px;font-stretch:semi-condensed}
+  .tag{font-family:var(--display);font-size:30px;font-weight:600;margin-top:30px;font-stretch:semi-condensed}
+  .tag em{font-style:normal;color:var(--amber)}
+  .pills{display:flex;gap:10px;margin-top:20px;flex-wrap:wrap}
+  .pills span{border:1px solid var(--linehi);border-radius:999px;padding:6px 14px;font-size:14px;color:var(--ink);background:rgba(31,36,45,.7)}
+  .pills span::before{content:"✔ ";color:var(--ok)}
+  .card{background:var(--surface);border:1px solid var(--line);border-radius:10px;overflow:hidden;
+        box-shadow:0 30px 60px -20px rgba(0,0,0,.7)}
+  .card .top{display:flex;align-items:center;gap:8px;padding:12px 16px;border-bottom:1px solid var(--line);background:var(--raised)}
+  .card .top b{font-family:var(--display);font-weight:500;color:var(--muted);font-size:13px;margin-left:6px}
+  .card .top s{width:10px;height:10px;border-radius:50%;background:var(--linehi)}
+  .card .top s:first-child{background:var(--amber)}
+  .card pre{font-family:var(--mono);font-size:12.5px;line-height:21px;color:#B7BECB;padding:14px 18px 16px}
+  .ok{color:var(--ok)} .h{color:var(--ink)} .no{color:var(--bad)}
+  .social .card pre{line-height:24px}
+  .foot{position:absolute;left:84px;bottom:34px;font-size:15px;color:var(--faint);display:none}
+  .social .foot{display:block}
+</style></head>
+<body>
+<div class="b">
+  <div>
+    <div class="mark"><div class="z">Z<i>.</i></div><div class="o">Optimizer</div></div>
+    <div class="tag">Optimiza Windows 11 <em>sin humo.</em></div>
+    <div class="pills"><span>Código abierto</span><span>Sin conexión a Internet</span><span>Todo reversible</span></div>
+  </div>
+  <div class="card">
+    <div class="top"><s></s><s></s><s></s><b>Actividad</b></div>
+<pre>▶ <span class="h">Optimizador · modo Gaming</span>
+<span class="ok">  ✔ Punto de restauración creado.</span>
+<span class="ok">  ✔ Telemetría al mínimo.</span>
+<span class="ok">  ✔ Sin anuncios, sin Bing, sin Widgets.</span>
+<span class="ok">  ✔ Z. Plan activado.</span>
+▶ <span class="h">Lo que NO hace</span>
+<span class="no">  ✖ Descargar nada de Internet</span>
+<span class="no">  ✖ Desactivar Defender, UAC o Windows Update</span>
+<span class="no">  ✖ Instalar servicios, tareas o drivers</span></pre>
+  </div>
+  <div class="foot">PowerShell 5.1 · un solo archivo · licencia MIT</div>
+</div>
+<script>if (location.search.includes('social')) document.body.classList.add('social');</script>
+</body></html>

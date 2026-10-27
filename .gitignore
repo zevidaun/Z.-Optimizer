@@ -1,0 +1,13 @@
+# Datos locales que nunca deben subirse
+*.reg
+journal.json
+reg-applied.txt
+GameUserSettings*.ini
+*.log
+
+# Sistema y editores
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/

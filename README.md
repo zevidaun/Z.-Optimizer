@@ -3,8 +3,8 @@
 </p>
 
 <p align="center">
-  <img alt="Windows 11" src="https://img.shields.io/badge/Windows%2011-24H2%20%C2%B7%2025H2%20%C2%B7%2026H2-12161C?style=flat-square&logo=windows11&logoColor=F0A73A">
-  <img alt="PowerShell 5.1" src="https://img.shields.io/badge/PowerShell-5.1-12161C?style=flat-square&logo=powershell&logoColor=F0A73A">
+  <img alt="Windows 11" src="https://img.shields.io/badge/Windows%2011-24H2%20%C2%B7%2025H2%20%C2%B7%2026H2-12161C?style=flat-square">
+  <img alt="PowerShell 5.1" src="https://img.shields.io/badge/PowerShell-5.1-12161C?style=flat-square&logo=gnometerminal&logoColor=F0A73A">
   <img alt="Sin red" src="https://img.shields.io/badge/conexiones%20de%20red-0-12161C?style=flat-square&labelColor=12161C&color=5BC48D">
   <img alt="Licencia MIT" src="https://img.shields.io/badge/licencia-MIT-12161C?style=flat-square&color=F0A73A">
 </p>

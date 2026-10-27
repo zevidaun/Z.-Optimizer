@@ -54,4 +54,4 @@ Select-String -Path .\Z-Optimizer.ps1 -Pattern 'Invoke-WebRequest|Invoke-RestMet
 
 ## License
 
-[MIT](LICENSE). Provided "as is", without warranty. It changes system settings — keep a restore point (the app creates one by default).
+[GNU GPL v3 or later](LICENSE) (`GPL-3.0-or-later`). Any modified or redistributed version must ship its full source code under the same license — it can never be turned into closed software. Provided "as is", without warranty. It changes system settings — keep a restore point (the app creates one by default).

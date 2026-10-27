@@ -16,6 +16,10 @@
 2. Ejecuta con **Solo simular** y revisa la consola.
 3. Aplica, reinicia, comprueba y luego **deshaz** desde Restaurar: el sistema debe volver al estado inicial.
 
+## Licencia
+
+Al enviar una contribución aceptas que se publique bajo la licencia del proyecto, [GPL-3.0-or-later](LICENSE).
+
 ## Estilo
 
 - PowerShell 5.1 compatible, archivo en UTF-8 **con BOM** y finales de línea CRLF.

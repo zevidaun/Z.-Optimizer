@@ -6,7 +6,7 @@
   <img alt="Windows 11" src="https://img.shields.io/badge/Windows%2011-24H2%20%C2%B7%2025H2%20%C2%B7%2026H2-12161C?style=flat-square">
   <img alt="PowerShell 5.1" src="https://img.shields.io/badge/PowerShell-5.1-12161C?style=flat-square&logo=gnometerminal&logoColor=F0A73A">
   <img alt="Sin red" src="https://img.shields.io/badge/conexiones%20de%20red-0-12161C?style=flat-square&labelColor=12161C&color=5BC48D">
-  <img alt="Licencia MIT" src="https://img.shields.io/badge/licencia-MIT-12161C?style=flat-square&color=F0A73A">
+  <img alt="Licencia GPL-3.0" src="https://img.shields.io/badge/licencia-GPL--3.0-12161C?style=flat-square&color=F0A73A">
 </p>
 
 <p align="center">
@@ -200,7 +200,7 @@ Las propuestas son bienvenidas, con una condición: cada ajuste nuevo debe estar
 
 ## Licencia
 
-[MIT](LICENSE). Úsalo, estúdialo y modifícalo libremente.
+[GNU GPL v3 o posterior](LICENSE) (`GPL-3.0-or-later`). Úsalo, estúdialo, modifícalo y compártelo libremente, con una condición: **todo lo que salga de este proyecto tiene que seguir siendo open source**. Cualquier versión modificada o redistribuida debe publicarse con su código fuente completo y bajo esta misma licencia. Nadie puede cerrarlo ni convertirlo en un programa privativo.
 
 > [!WARNING]
 > Este software modifica la configuración del sistema. Se ofrece "tal cual", sin garantías. Crea un punto de restauración antes de usarlo (el programa lo hace por ti por defecto).

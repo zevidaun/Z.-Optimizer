@@ -11,6 +11,12 @@
       · Restaurar     — deshace todo lo anterior
 
     Todo lo que cambia queda registrado en %ProgramData%\ZOptimizer para poder revertirlo.
+
+    Copyright (C) 2026 zevi
+    SPDX-License-Identifier: GPL-3.0-or-later
+    Este programa es software libre: puedes redistribuirlo y/o modificarlo bajo los términos de la
+    GNU General Public License publicada por la Free Software Foundation, versión 3 o posterior.
+    Se distribuye SIN NINGUNA GARANTÍA. Consulta el archivo LICENSE.
 #>
 
 # ---------------------------------------------------------------------------
